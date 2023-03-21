@@ -2,7 +2,7 @@
 [![NuGet version (ProvisionPay.SoftposDeeplinkSDK)](https://img.shields.io/nuget/v/ProvisionPay.SoftposDeeplinkSDK.svg?style=flat-square)](https://www.nuget.org/packages/ProvisionPay.SoftposDeeplinkSDK/)
 
 
-# Dotnet Deeplink Sdk
+# Softpos Deeplink Dotnet SDK
 
 It is a class library developed to reduce integration time in Softpos applications.
 
@@ -197,5 +197,5 @@ public class SoftPosDeeplinkDemoConfiguration : ISoftPosDeeplinkConfiguration
 NET 4.5 , NET 4.51 , NET 4.52 , NET 4.6 , NET 4.61 , NET 4.62 , NET 4.57 , NET 4.571 , NET 4.572 , NET 4.8 , NET 4.81 , NET Core  5 , NET Core  6 , NET Core 7
 
 # 14 Video Tutorial
-![image search api](https://provisionpay.com/wp-content/uploads/2020/05/dotnet_sdk_youtube_cover.png)[(Youtube)](https://www.youtube.com/watch?v=noNt7OJ_ZzU)
+[<img src="https://provisionpay.com/wp-content/uploads/2020/05/dotnet_sdk_youtube_cover.png" >](https://www.youtube.com/watch?v=noNt7OJ_ZzU "Softpos Deeplink Dotnet SDK")
 
