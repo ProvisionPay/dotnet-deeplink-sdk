@@ -2,7 +2,7 @@
 [![NuGet version (ProvisionPay.SoftposDeeplinkSDK)](https://img.shields.io/nuget/v/ProvisionPay.SoftposDeeplinkSDK.svg?style=flat-square)](https://www.nuget.org/packages/ProvisionPay.SoftposDeeplinkSDK/)
 
 
-# Softpos Deeplink Dotnet SDK
+# SoftPOS Deeplink Dotnet SDK
 
 It is a class library developed to reduce integration time in Softpos applications.
 
