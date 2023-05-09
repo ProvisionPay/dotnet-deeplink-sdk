@@ -75,7 +75,7 @@ var transactionByPaymentSessionTokenRequest = new GetTransactionByPaymentSession
     PaymentSessionToken = paymentSessionToken
 };
 
-var softposDeeplinkSDKResponse = sdk.GetTransactionByPaymentSessionToken(transactionByPaymentSessionTokenRequest);
+var getTransactionByPaymentSessionToken = sdk.GetTransactionByPaymentSessionToken(transactionByPaymentSessionTokenRequest);
 ```
 Throws: ArgumentNullException, HostException
 # 5. Get Payment Session Status
@@ -88,7 +88,7 @@ var paymentSessionStatusRequest = new GetPaymentSessionStatusRequest()
     PaymentSessionToken = paymentSessionToken
 };
 
-var createPaymentSession = sdk.GetPaymentSessionStatus(paymentSessionStatusRequest);
+var getPaymentSessionStatus = sdk.GetPaymentSessionStatus(paymentSessionStatusRequest);
 
 ```
 Throws: ArgumentNullException, HostException
