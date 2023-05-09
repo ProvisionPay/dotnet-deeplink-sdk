@@ -62,7 +62,7 @@ var createPaymentSessionTokenRequest = new CreatePaymentSessionTokenRequest()
 
 var createPaymentSessionResponse = sdk.CreatePaymentSessionToken(createPaymentSessionTokenRequest);
 
-string paymentSessionToken =  createPaymentSessionResponse.Body.PaymentSessionToken
+string paymentSessionToken =  createPaymentSessionResponse.Body.PaymentSessionToken;
 ```
 Throws: CreatePaymentSessionTokenException, HostException, ArgumentNullException
 # 4. Get Transaction By Payment Session Token
