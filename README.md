@@ -160,7 +160,6 @@ var privateKey = "Your private key 32 character";
 
 HandleCallBackDataResponse handlCallbackData = _sdk.HandleCallBackData(Request, privateKey);
 
-return Ok(handlCallbackData);
 ```
 Request variable must be HttpRequestMessage type in Net framework or HttpRequest type in Net core.
 
