@@ -147,7 +147,7 @@ Handle Webhook model identifies the detail of how to handle the webhook requests
 
 APICredentials apiCredentials = new APICredentials("secretkey", "accesskey");
 
-var webHookTransactionDetail = sdk.HandleWebhook(apiCredentials, "Your private key 32 character", Request);
+WebHookTransactionDetailResponse webHookTransactionDetail = sdk.HandleWebhook(apiCredentials, "Your private key 32 character", Request);
 ```
 Request variable must be HttpRequestMessage type in Net framework or HttpRequest type in Net core.
 
