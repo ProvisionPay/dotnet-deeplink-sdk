@@ -60,7 +60,7 @@ var createPaymentSessionTokenRequest = new CreatePaymentSessionTokenRequest()
     TransactionType = Constants.TransactionType.Sale
 };
 
-var createPaymentSession = sdk.CreatePaymentSessionToken(createPaymentSessionTokenRequest);
+var createPaymentSessionResponse = sdk.CreatePaymentSessionToken(createPaymentSessionTokenRequest);
 
 string paymentSessionToken =  createPaymentSessionResponse.Body.PaymentSessionToken
 ```
